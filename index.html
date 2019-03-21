@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru" class="js flexbox webgl no-touch geolocation hashchange history websockets rgba hsla multiplebgs backgroundsize borderimage textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage applicationcache svg svgclippaths mediaqueries no-regions supports" style="">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -23,12 +23,10 @@
     <meta property="og:site_name" content="">
     <meta property="og:image" content="">
 <!--CSS/JS-->
-    <link rel="stylesheet" id="bones-stylesheet-css" href="https://d2dabun8ogk5x1.cloudfront.net/wp-content/themes/derepublica/library/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="bones-stylesheet-css" href="css/style.css" type="text/css" media="all">
     <script type="text/javascript" src="js/d748f.js"></script>
 </head>
 <body class="home blog scrolltop">
-<div class="main-loader">
-</div>
 <!--Лого верх-->
 <div class="icon-logo">
     <a href="#"><img src="icon-logo-1.jpg"></a>
@@ -52,27 +50,31 @@
     </div>
     <p>+7(985)513-35-29<br>
     <a href="mailto:spso_fenix@gmail.com" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;contact&#39;, &#39;email&#39;, &#39;footer&#39;);">spso_fenix@gmail.com</a></p>
-    <a href="#" class="cta-btn-form form-link" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;contact&#39;, &#39;project planner&#39;, &#39;footer&#39;);"><span>Записаться в Отряд</span> <span class="icon-ArrowRightClean"></span></a>
-    <a href="#" target="_blank" class="cta-btn-form manual-link"><span>Записаться</span> <span class="icon-ArrowRightClean"></span></a></div></div><span class="icon-ArrowUp"></span><div class="logotype"></div></div><div class="nav-btn-wrap">
+    <a href="#" class="cta-btn-form form-link" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;contact&#39;, &#39;project planner&#39;, &#39;footer&#39;);"><span>Записаться в Отряд</span> <span class="icon-ArrowRight"></span></a>
+    <a href="#" target="_blank" class="cta-btn-form manual-link"><span>Записаться в Отряд</span> <span class="icon-ArrowRight"></span></a></div></div><span class="icon-ArrowUp"></span><div class="logotype"></div></div>
+<div class="nav-btn-wrap">
     <!--Навигация по сайту-->
     <button class="c-hamburger c-hamburger--htx">
         <span>Menu</span>
-    </button></div><div class="side-nav"><div class="sidebar-bg"></div><div class="main-menu">
-    <ul><li class=""><a href="#">Главная</a></li>
-        <li class=""><a href="#">Об отряде</a></li>
-        <li class=""><a href="#">Галерея</a></li>
-        <li class=""><a href="#">Вступление в отряд</a></li>
-        <li class=""><a href="#">Структура и руководство</a></li>
-        <li class="contact"><a href="#">Контакты</a>
-        </li>
-    </ul>
+    </button>
 </div>
+<div class="side-nav">
+    <div class="main-menu">
+        <ul><li class="home"><a href="index.html">Главная</a></li>
+            <li class="squad"><a href="about_squad.html">Об отряде</a></li>
+            <li class="gallery"><a href="#">Галерея</a></li>
+            <li class="entry"><a href="#">Вступление в отряд</a></li>
+            <li class="structure"><a href="#">Структура и руководство</a></li>
+            <li class="contact"><a href="contact.html">Контакты</a>
+            </li>
+        </ul>
+    </div>
     <!--Боковая надпись и соц кнопки-->
     <div class="status-text">
     <span class="social-links">
-        <img style="background-color:#ffffff" src="icon/inst.png" alt="">
-            <img style="background-color:#ffffff" src="icon/vk.png" alt="">
-            <img style="background-color:#ffffff" src="icon/yt.png" alt="">
+        <img  src="icon/inst.png" alt="">
+            <img  src="icon/vk.png" alt="">
+            <img  src="icon/yt.png" alt="">
         <br>
     </span></div>
 </div>
@@ -80,15 +82,11 @@
     <!--Видео-->
     <div id="hero-bg-vid" data-vide-bg="mp4: VS.mp4, poster:home-bg.jpg " data-vide-options="bgColor: #000000, loop: true, controls: true, muted: true, position: 50% 50%, posterType: jpg"><div style="position: absolute; z-index: 1; top: 0px; left: 0px; bottom: 0px; right: 0px; overflow: hidden; background-size: cover; background-color: rgb(0, 0, 0); background-repeat: no-repeat; background-position: 50% 50%; background-image: none;">
         <video controls = "" autoplay="" loop="" preload="auto" muted="" style="margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: visible; opacity: 1; width: auto; height: 916px;" data-video="0">
-            <source src="VS.mp4" type="video/mp4">
-        </video>
-    </div>
-        <div class="loader loaded">
-            <div class="loader-inner">
+            <!--        <source src="VS.mp4" type="video/mp4"> -->
+                </video>
             </div>
-        </div>
-    </div>
-    <!--Надписи поверх видео-->
+            </div>
+            <!--Надписи поверх видео-->
     <div class="vidspace top">
         <div class="header-tagline-wrap landing">
             <div class="header-tagline">
@@ -106,8 +104,6 @@
         <div class="arrow-push">
             <span class="icon-ArrowDown"></span>
         </div>
-    <div class="logotype">
-    </div>
 </div>
     <main class="content">
         <section class="featured-projects featured-work">
@@ -118,9 +114,16 @@
         </div>
         <h2>Самый топовый отряд Москвы с самым модным названием и формой.</h2>
         <div class="view-more">
-            <a href="#"><p>Подробнее о нас</p><span class="icon-ArrowRightClean"></span></a>
+            <a href="#"><p>Подробнее о нас</p><span class="icon-ArrowRight"></span></a>
         </div>
 </header>
+            <!--Ссылки на супер отряды-->
+            <div class="aligncenter">
+                <a href="http://www.mchs.gov.ru/dop/info/individual"><img src="./img/squad/mchs.png" alt=""></a>
+                <a href="http://spasrezerv.pro/"><img src="./img/squad/spas.png" alt=""></a>
+                <a href="http://vsks.ru/"><img src="./img/squad/vsks.png" alt=""></a>
+                <a href="http://ruor.org/"><img src="./img/squad/ruor.png" alt=""></a>
+            </div>
             <!--Оформление новостей-->
     <div class="m-all t-1of2 d-1of2 cf rollin now"><div class="thumbnail-wrap"><div class="thumbnail-cover"><a href="#1" class="thumbnail-link">Подробнее</a><div class="thumbnail-img-place" style="background-image: url(&#39;1.jpg &#39;);"></div><div class="thumbnail-body"><div class="thumbnail-category"><p>05.01.19</p><p></p></div><div class="thumbnail-title"><h2>Помыли<br>Машину</h2></div></div></div></div></div>
     <div class="m-all t-1of2 d-1of2 cf rollin now"><div class="thumbnail-wrap"><div class="thumbnail-cover"><a href="#2" class="thumbnail-link">Подробнее</a><div class="thumbnail-img-place" style="background-image: url(&#39;2.jpg &#39;);"></div><div class="thumbnail-body"><div class="thumbnail-category"><p>10.01.19</p><p></p></div><div class="thumbnail-title"><h2>Крутой<br>Бензорез</h2></div></div></div></div></div>
@@ -138,7 +141,7 @@
 <!--JS-->
 <script type="text/javascript" src="js/aa1be.js"></script>
 <!--Записаться к нам-->
-<iframe id="my_typeform" src="https://derepublica.typeform.com/to/qob28b"></iframe>
+<iframe id="my_typeform" src="form.html"></iframe>
 
 <div class="form-header"><div class="form-header-logo"><div class="icon-logo"><img src="icon-logo-1.jpg"></div></div>
     <div class="close-btn">
