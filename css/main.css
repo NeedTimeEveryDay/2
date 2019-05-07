@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url('../fonts/Montserrat-Regular.ttf'); 
+  src: url('../fonts/Montserrat-Regular.ttf');
 }
 
 @font-face {
@@ -162,7 +162,7 @@ iframe {
 
 .wrap-contact100 {
   width: 1163px;
-  background: #fff;
+  background: #607D8B;
   border-radius: 10px;
   overflow: hidden;
 
@@ -199,7 +199,7 @@ iframe {
   display: block;
   font-family: Montserrat-ExtraBold;
   font-size: 24px;
-  color: #333333;
+  color: #ffffff;
   line-height: 1.2;
   text-align: left;
   padding-bottom: 36px;
@@ -228,11 +228,11 @@ textarea.input100 {
 .input100 {
   display: block;
   width: 100%;
-  background: #e6e6e6;
+  background: #ffffff;
   font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
-  color: #666666;
+  color: #ffffff;
 }
 
 

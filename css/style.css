@@ -371,6 +371,9 @@ p {
     float: left;
     padding: 0 15px;
     width: 50%; }
+    .m-1of2p {
+        float: left;
+        width: 50%; }
   .m-1of3 {
     float: left;
     padding: 0 15px;
@@ -1415,6 +1418,29 @@ a.thumbnail-link {
   color: #fff;
   text-decoration: none; }
 
+.thumbnail-img-squad {
+    width: 100%;
+    height: 100%;
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    -webkit-filter: brightness(30%);
+    filter: brightness(30%);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+.thumbnail-img-squad:hover {
+    transition: filter .7s ease-in-out;
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+}
 /*********************
 LINK STYLES
 *********************/
@@ -1598,6 +1624,9 @@ SIDEBAR NAV STYLES
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   top: 50%;
+    /*временное решение бага перекрытия TblKBA{ */
+    padding-top: 15%;
+    /*} временное решение бага перекрытия*/
   padding-right: 30px;
   visibility: hidden; }
 
@@ -2042,7 +2071,10 @@ FOOTER STYLES
   background-color: #000000;
   color: #f8f9fa; }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 375px) {
+    .thumbnail-img-squad {
+        height: 150px;
+        width: 150px;}
   .header-main h4 {
     display: none; }
   .single-services .header-tagline {
@@ -2060,6 +2092,9 @@ THUMBNAIL STYLES
 *********************/
   .thumbnail-img-place {
     height: 325px; }
+    .thumbnail-img-squad {
+        height: 150px;
+        width: 150px;}
   .thumbnail-item {
     height: 325px; }
   .content .vertical {
@@ -2526,6 +2561,9 @@ THUMBNAIL STYLES
 *********************/
   .thumbnail-img-place {
     height: 350px; }
+    .thumbnail-img-squad {
+        height: 200px;
+        width: 200px; }
   .full-width-video-launch .thumbnail-img-place, .full-width-image .thumbnail-img-place {
     height: 450px; }
   .video-bg-section {
